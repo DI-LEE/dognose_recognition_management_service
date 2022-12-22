@@ -80,6 +80,8 @@ dog nose recognition management service application with Siamese Neural Networks
 
 #### 비문 등록 시스템 구조
 
+![KakaoTalk_20221204_173650499](https://user-images.githubusercontent.com/79498819/209191721-ce9419df-16c0-4bf9-af13-942b47e59e2d.png)
+
 1. 사용자는 어플리케이션의 카메라 기능으로 강아지의 정면 얼굴 사진을 찍는다.
 
 2. 강아지 정면 얼굴 사진은 갤러리에 저장되며, REST API를 통해 서버로 전송된다.
@@ -87,6 +89,8 @@ dog nose recognition management service application with Siamese Neural Networks
 3. 전송된 강아지 정면 얼굴 사진은 object-detection 모델인 yoloV5을 통해 강아지의 정면 얼굴 중 코(비문) 부분만 추출하여 이미지 전처리를 진행하고 데이터베이스에 저장한다.
 
 #### 비문 인식 시스템 구조
+
+![캡스톤_비문인식 drawio](https://user-images.githubusercontent.com/79498819/209191762-9a32352e-afe9-4c05-93cf-5228b679daa8.png)
 
 1. 사용자는 어플리케이션의 카메라 기능으로 강아지의 정면 얼굴 사진을 찍는다.
 
@@ -101,6 +105,12 @@ dog nose recognition management service application with Siamese Neural Networks
 6. 만약 같은 비문일 경우, 해당 비문의 강아지 정보를 client에게 조회할 수 있도록 한다.
 
 # UI/UX
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/79498819/209191816-3df716a4-aad0-4c01-a20a-fa5a1bf86771.png">
+<img width="508" alt="image" src="https://user-images.githubusercontent.com/79498819/209191855-353cae2c-a933-4811-b234-5f745d4f146f.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/79498819/209191876-c65a9b0a-8521-4833-b5bb-0d4bbe66ce66.png">
 
 # Result Video
+
+https://user-images.githubusercontent.com/79498819/209191940-0ae49b10-3502-4280-9b0f-fbde6f2b6026.mp4
+
 
