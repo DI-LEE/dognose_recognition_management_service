@@ -80,7 +80,7 @@ dog nose recognition management service application with Siamese Neural Networks
 
 #### 비문 등록 시스템 구조
 
-![KakaoTalk_20221204_173650499](https://user-images.githubusercontent.com/79498819/209191721-ce9419df-16c0-4bf9-af13-942b47e59e2d.png)
+![캡스톤_비문등록 drawio (3)](https://user-images.githubusercontent.com/79498819/209192296-11232e46-50f6-4b3c-9483-406b64147faf.png)
 
 1. 사용자는 어플리케이션의 카메라 기능으로 강아지의 정면 얼굴 사진을 찍는다.
 
