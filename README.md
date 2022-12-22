@@ -197,9 +197,8 @@ Siamese Network 는 (이하 샴 네트워크) 다루어야하는 클래스의 �
 
 비문 이미지에서 특징점을 비교하기위해 원샷 런닝기반의 샴네트워크 모델을 구현했다.    
 
-인식 시킬 사진과 db에 저장되어있는 사진이 동시에 input으로 들어가 각각 웨이트를 공유하며 여러번의 컨볼루션 연산을 통해 특징점이 추출됩니다. 특징점이 추출된 이 피처맵의 차이를 여러번의 dense 레이어를 거치고 sigmod를 통해  유사도인 0-1 사이의 확률 값을 반환한다.
+인식 시킬 사진과 db에 저장되어있는 사진이 동시에 input으로 들어가 각각 웨이트를 공유하며 여러번의 컨볼루션 연산을 통해 특징점이 추출됩니다. 특징점이 추출된 이 피처맵의 차이를 여러번의 dense 레이어를 거치고 sigmod를 통해  유사도인 0-1 사이의 확률 값을 반환한다.    
 
-​    
 
  원천 이미지와 각각의 전처리된 이미지들을 기법 별로 모두 학습시켜 비교분석을 했다.  결과는 아래와 같다.
 
@@ -257,15 +256,9 @@ Siamese Network 는 (이하 샴 네트워크) 다루어야하는 클래스의 �
 # Reference
 
 1. Gregory Koch, Richard Zemel, Ruslan Salakhutdinov, Siamese Neural Networks for One-shot Image Recognition, ICML deep learning workshop, vol. 2, pp. 3-8 ,2015
-
 2. Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, You Only Look Once: Unified, Real-Time Object Detection, pp. 1-7, 2015
-
 3. YOLOv5, https://pytorch.org/hub/ultralytics_yolov5/
-
 4. 정성환, 배종훈, OpenCV-Python으로 배우는 영상 처리 및 응용, 생능출판, 2020
-
 5. 권태형, 백엔드를 위한 Django REST Framework with 파이썬, 영진닷컴, 2022
-
 6. 처음 배우는 리액트 네이티브, 493쪽, 한빛미디어 - 김범준
-
 7. Do it! 리액트 네이티브 앱 프로그래밍, 856쪽, 이지퍼블리싱 - 전예홍
