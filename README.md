@@ -150,7 +150,10 @@ https://user-images.githubusercontent.com/79498819/209191940-0ae49b10-3502-4280-
 
 | **Sboel**                                                    | **Laplacian**                                                | **Canny**                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![그림입니다. 원본 그림의 이름: CLP00004d243488.bmp 원본 그림의 크기: 가로 366pixel, 세로 318pixel](file:///C:\Users\leedo\AppData\Local\Temp\tmp37DB.jpg) | ![그림입니다. 원본 그림의 이름: CLP00004d240001.bmp 원본 그림의 크기: 가로 366pixel, 세로 305pixel](file:///C:\Users\leedo\AppData\Local\Temp\tmp37EB.jpg) | ![그림입니다. 원본 그림의 이름: CLP00004d240002.bmp 원본 그림의 크기: 가로 367pixel, 세로 310pixel](file:///C:\Users\leedo\AppData\Local\Temp\tmp37FC.jpg) |
+| ![image01](https://user-images.githubusercontent.com/79498819/209196224-25575e6d-63c9-405f-9b61-0232a9133a69.png)
+ | ![image02](https://user-images.githubusercontent.com/79498819/209196258-a653ac27-5b52-4e01-b8ca-2030805d5cd6.png)
+ | ![image03](https://user-images.githubusercontent.com/79498819/209196309-4e332764-8903-4ae7-b224-f3a896d38a8d.png)
+ |
 
 ## Object-Detection
 
@@ -181,6 +184,9 @@ https://user-images.githubusercontent.com/79498819/209191940-0ae49b10-3502-4280-
 => 차이가 극적으로 크게 나지 않기 때문에, 예측속도가 빠른 **yoloV5n**을 사용하기로 결정했다. 
 
 ## Siamese Neural Network
+
+![샴네트워크 drawio](https://user-images.githubusercontent.com/79498819/209196524-539530b7-a1a3-4c3a-8cb5-b12eff76a518.png)
+
 
 Siamese Network 는 (이하 샴 네트워크) 다루어야하는 클래스의 종류가 매우 많고, 특정 클래스에 대한 사진을 대량으로 구할 수 없을 때 머신러닝을 활용하여 그 클래스를 구분해내기 위하여 고안된 네트워크이다.    
 
