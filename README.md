@@ -54,7 +54,9 @@ dog nose recognition management service application with Siamese Neural Networks
 
 #### frontend
 
-* 
+* `react-native==0.69.6`
+* `react==18.0.0`
+* `expo==46.0.13`
 
 #### backend
 
@@ -217,11 +219,17 @@ Siamese Network 는 (이하 샴 네트워크) 다루어야하는 클래스의 �
 
 프론트엔드 언어로는 javascript, 그리고 framework로서 react-native를 사용했다.    
 
- react-native의 개발 방법으로는 cli 대신 expo를 선택했다. expo는 편리하고 유용하며 추후 배포할 경우 cli보다 간편하다는 장점이 있어 유지, 보수하기에 좋다. cli보다 라이브러리가 적지만, expo 자체에서 꾸준하게 기능들을 제공해주고 있어 선택했다.    
+ react-native의 개발 방법으로는 cli 대신 expo를 선택했다. expo는 편리하고 유용하며 추후 배포할 경우 cli보다 간편하다는 장점이 있어 유지, 보수하기에 좋다. cli보다 라이브러리가 적지만, expo 자체에서 꾸준하게 기능들을 제공해주고 있어 선택했다.
 
-개발을 진행할 때, 사용자에게 좋은 경험을 주는 것을 가장 최우선의 목표로 설정하여 작업을 진행하였다.  text input이나 button과 같이 자주 쓰이는 기능의 경우 컴포넌트식으로 통일성을 높이고 비문 등록과 검색 시 모델이 처리하는 시간으로 사용자의 대기시간이 길어지기 때문에 skeleton component를 사용했다.    
+#### 사용자 경험 중시
 
+  개발을 진행할 때, 사용자에게 좋은 경험을 주는 것을 가장 최우선의 목표로 설정하여 작업을 진행하였다.  text input이나 button과 같이 자주 쓰이는 기능의 경우 컴포넌트식으로 통일성을 높이고 비문 등록과 검색 시 모델이 처리하는 시간으로 사용자의 대기시간이 길어지기 때문에 skeleton component를 사용했다.    
  카메라 촬영시, 사용자 누구나 쉽게 강아지 코를 찍을 수 있게 코 모양 이미지를 카메라 화면에 띄우고, 강아지 촬영은 어렵기 때문에 강아지를 핸드폰으로 집중시키기 위해 clap-sound를 넣어 코를 쉽고, 정확하게 찍을 수 있도록 구현하였다.
+
+#### 사용한 library
+
+  expo에서 다양한 library를 지원해주고 있다. 카메라 기능으로는 expo-camera와 expo-image-picker를 사용했으며, 캘린더 기능으로는 expo-calendar를 사용했다.
+  clap-sound를 넣을 시에는 react-native-sound와 react-native-sound-player를 사용했다.
 
 ## Backend
 
