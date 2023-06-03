@@ -25,7 +25,7 @@ dog nose recognition management service application with Siamese Neural Networks
 | 이동인   | 팀장, 강아지 코 추출 및 비문 인식 모델 개발 및 이식, 데이터 라벨링 및 증강 | dongeen1@gmail.com    |
 | 임서연   | 기획, 학습 데이터 수집 및 라벨링, 이미지 데이터 전처리       | dlatjdus222@naver.com |
 | 황남주   | UX/UI 디자인, 프론트엔드 개발                                | namuju_hi@naver.com   |
-| 조성민   | 백엔드 개발 및 서버 구축                                     | another0306@naver.com |
+
 
 # Requirement
 
